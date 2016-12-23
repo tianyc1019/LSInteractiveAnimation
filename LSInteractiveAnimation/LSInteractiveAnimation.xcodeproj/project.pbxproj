@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31E5FA131E0CB136006DD985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA121E0CB136006DD985 /* AppDelegate.swift */; };
-		31E5FA151E0CB136006DD985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA141E0CB136006DD985 /* ViewController.swift */; };
 		31E5FA181E0CB136006DD985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E5FA161E0CB136006DD985 /* Main.storyboard */; };
 		31E5FA1A1E0CB136006DD985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E5FA191E0CB136006DD985 /* Assets.xcassets */; };
 		31E5FA1D1E0CB136006DD985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E5FA1B1E0CB136006DD985 /* LaunchScreen.storyboard */; };
 		31E5FA281E0CB136006DD985 /* LSInteractiveAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA271E0CB136006DD985 /* LSInteractiveAnimationTests.swift */; };
 		31E5FA331E0CB136006DD985 /* LSInteractiveAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA321E0CB136006DD985 /* LSInteractiveAnimationUITests.swift */; };
+		31E5FA4B1E0CB19A006DD985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA411E0CB19A006DD985 /* AppDelegate.swift */; };
+		31E5FA4C1E0CB19A006DD985 /* LSDismissAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA431E0CB19A006DD985 /* LSDismissAnimation.swift */; };
+		31E5FA4D1E0CB19A006DD985 /* LSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA441E0CB19A006DD985 /* LSNavigationController.swift */; };
+		31E5FA4E1E0CB19A006DD985 /* LSPopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA451E0CB19A006DD985 /* LSPopAnimation.swift */; };
+		31E5FA4F1E0CB19A006DD985 /* LSPresentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA461E0CB19A006DD985 /* LSPresentAnimation.swift */; };
+		31E5FA501E0CB19A006DD985 /* LSPushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA471E0CB19A006DD985 /* LSPushAnimation.swift */; };
+		31E5FA511E0CB19A006DD985 /* LSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA481E0CB19A006DD985 /* LSViewController.swift */; };
+		31E5FA521E0CB19A006DD985 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA491E0CB19A006DD985 /* secondViewController.swift */; };
+		31E5FA531E0CB19A006DD985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5FA4A1E0CB19A006DD985 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +42,6 @@
 
 /* Begin PBXFileReference section */
 		31E5FA0F1E0CB136006DD985 /* LSInteractiveAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSInteractiveAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		31E5FA121E0CB136006DD985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31E5FA141E0CB136006DD985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31E5FA171E0CB136006DD985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31E5FA191E0CB136006DD985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31E5FA1C1E0CB136006DD985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,16 @@
 		31E5FA2E1E0CB136006DD985 /* LSInteractiveAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSInteractiveAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E5FA321E0CB136006DD985 /* LSInteractiveAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSInteractiveAnimationUITests.swift; sourceTree = "<group>"; };
 		31E5FA341E0CB136006DD985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E5FA401E0CB199006DD985 /* LSInteractiveAnimation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSInteractiveAnimation-Bridging-Header.h"; sourceTree = "<group>"; };
+		31E5FA411E0CB19A006DD985 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31E5FA431E0CB19A006DD985 /* LSDismissAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSDismissAnimation.swift; sourceTree = "<group>"; };
+		31E5FA441E0CB19A006DD985 /* LSNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSNavigationController.swift; sourceTree = "<group>"; };
+		31E5FA451E0CB19A006DD985 /* LSPopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSPopAnimation.swift; sourceTree = "<group>"; };
+		31E5FA461E0CB19A006DD985 /* LSPresentAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSPresentAnimation.swift; sourceTree = "<group>"; };
+		31E5FA471E0CB19A006DD985 /* LSPushAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSPushAnimation.swift; sourceTree = "<group>"; };
+		31E5FA481E0CB19A006DD985 /* LSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSViewController.swift; sourceTree = "<group>"; };
+		31E5FA491E0CB19A006DD985 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		31E5FA4A1E0CB19A006DD985 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +112,15 @@
 		31E5FA111E0CB136006DD985 /* LSInteractiveAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				31E5FA121E0CB136006DD985 /* AppDelegate.swift */,
-				31E5FA141E0CB136006DD985 /* ViewController.swift */,
+				31E5FA411E0CB19A006DD985 /* AppDelegate.swift */,
+				31E5FA421E0CB19A006DD985 /* LSInteractiveAnimation */,
+				31E5FA491E0CB19A006DD985 /* secondViewController.swift */,
+				31E5FA4A1E0CB19A006DD985 /* ViewController.swift */,
 				31E5FA161E0CB136006DD985 /* Main.storyboard */,
 				31E5FA191E0CB136006DD985 /* Assets.xcassets */,
 				31E5FA1B1E0CB136006DD985 /* LaunchScreen.storyboard */,
 				31E5FA1E1E0CB136006DD985 /* Info.plist */,
+				31E5FA401E0CB199006DD985 /* LSInteractiveAnimation-Bridging-Header.h */,
 			);
 			path = LSInteractiveAnimation;
 			sourceTree = "<group>";
@@ -123,6 +141,19 @@
 				31E5FA341E0CB136006DD985 /* Info.plist */,
 			);
 			path = LSInteractiveAnimationUITests;
+			sourceTree = "<group>";
+		};
+		31E5FA421E0CB19A006DD985 /* LSInteractiveAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				31E5FA431E0CB19A006DD985 /* LSDismissAnimation.swift */,
+				31E5FA441E0CB19A006DD985 /* LSNavigationController.swift */,
+				31E5FA451E0CB19A006DD985 /* LSPopAnimation.swift */,
+				31E5FA461E0CB19A006DD985 /* LSPresentAnimation.swift */,
+				31E5FA471E0CB19A006DD985 /* LSPushAnimation.swift */,
+				31E5FA481E0CB19A006DD985 /* LSViewController.swift */,
+			);
+			path = LSInteractiveAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +224,7 @@
 				TargetAttributes = {
 					31E5FA0E1E0CB136006DD985 = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					31E5FA221E0CB136006DD985 = {
@@ -259,8 +291,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31E5FA151E0CB136006DD985 /* ViewController.swift in Sources */,
-				31E5FA131E0CB136006DD985 /* AppDelegate.swift in Sources */,
+				31E5FA521E0CB19A006DD985 /* secondViewController.swift in Sources */,
+				31E5FA4C1E0CB19A006DD985 /* LSDismissAnimation.swift in Sources */,
+				31E5FA4F1E0CB19A006DD985 /* LSPresentAnimation.swift in Sources */,
+				31E5FA531E0CB19A006DD985 /* ViewController.swift in Sources */,
+				31E5FA4E1E0CB19A006DD985 /* LSPopAnimation.swift in Sources */,
+				31E5FA511E0CB19A006DD985 /* LSViewController.swift in Sources */,
+				31E5FA4B1E0CB19A006DD985 /* AppDelegate.swift in Sources */,
+				31E5FA4D1E0CB19A006DD985 /* LSNavigationController.swift in Sources */,
+				31E5FA501E0CB19A006DD985 /* LSPushAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,10 +449,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LSInteractiveAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LS.LSInteractiveAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LSInteractiveAnimation/LSInteractiveAnimation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -422,10 +465,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LSInteractiveAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LS.LSInteractiveAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LSInteractiveAnimation/LSInteractiveAnimation-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

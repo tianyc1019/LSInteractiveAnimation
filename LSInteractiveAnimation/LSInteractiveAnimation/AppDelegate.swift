@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  LSInteractiveAnimation
 //
-//  Created by John_LS on 2016/12/23.
+//  Created by John_LS on 2016/12/22.
 //  Copyright © 2016年 John_LS. All rights reserved.
 //
 
@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor = UIColor.white
+        
+        let nav = LSNavigationController.init(rootViewController: ViewController.init())
+        self.window?.rootViewController = nav
+        self.window?.makeKeyAndVisible()
         return true
     }
 
